@@ -56,6 +56,10 @@ console.log(numbers);
 
 const squares = [30, 2, 8, 24, 11];
 
+for(i = 0; i < squares.length; i++) {
+    let calc = squares[i] * squares[i] * squares[i];
+    console.log("Het voluma van " + squares[i] + " is " + calc);
+}
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(squares) geeft: [30, 2, 8, 24, 11];
