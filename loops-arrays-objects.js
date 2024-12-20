@@ -62,7 +62,18 @@ scores.forEach(person => {
 //  ];
 // ==========================================
 
+// Bij deze opdracht gebruik ik wel een for loop inplaats van een forEach
+// Omdat als je een forEach gebruikt is het meer complex als je een waarde wil toevoegen.
+console.log(scores);
+for(i = 0; i < scores.length; i++) {
+    if(scores[i].score <= 60) scores[i].grade = "F";
+    else if(scores[i].score <= 70) scores[i].grade = "D";
+    else if(scores[i].score <= 80) scores[i].grade = "C";
+    else if(scores[i].score <= 90) scores[i].grade = "B";
+    else scores[i].grade = "A";
 
+}
+console.log(scores);
 
 
 
