@@ -98,8 +98,11 @@ const NOVIEmployees = [
 //   { firstName: 'Mark', lastName: 'Rensen', email: 'Mark.Rensen@novi.nl' },
 //  ];
 // ==========================================
-
-
+console.log(NOVIEmployees)
+for(i = 0; i < NOVIEmployees.length; i++) {
+    NOVIEmployees[i].email = NOVIEmployees[i].firstName.toLowerCase() + "." + NOVIEmployees[i].lastName.toLowerCase() + "@novi.nl";
+}
+console.log(NOVIEmployees)
 
 
 
@@ -108,6 +111,7 @@ const NOVIEmployees = [
 // Lukt het je om ervoor te zorgen dat alle e-mailadressen in lowercase letters komen te staan? Dit heb je nog niet geleerd, maar google is your best friend...
 // ==========================================
 
+// Ik heb het in de opdracht hierboven toegepast door het gebruik van de String funtion .toLowerCase();
 
 
 
