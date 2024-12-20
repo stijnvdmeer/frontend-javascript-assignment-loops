@@ -25,7 +25,15 @@
 // klaar!
 // ==========================================
 
+for(i = 0; i < 5; i++) {
+    if(i === 4) {
+        console.log("Klaar!");
+    }
+    else {
+        console.log("Loop...");
+    }
 
+}
 
 
 
@@ -45,6 +53,17 @@
 // >> 9
 // ==========================================
 
+for(i = 0; i <= 9; i++) {
+    if(i < 3) {
+        console.log(i);
+    }
+    else if (i < 6) {
+        console.log(">" + i);
+    }
+    else if(i <= 9 ) {
+        console.log(">>" + i);
+    }
+}
 
 
 
@@ -87,5 +106,19 @@
 // etc.
 // ==========================================
 
+for(i = 0; i <= 100; i++) {
+    if(i % 5 === 0 && i % 3 === 0) {
+        console.log("FizzBuzz");
+    }
+    else if(i % 5 === 0) {
+        console.log("Buzz");
+    }
+    else if (i % 3 === 0) {
+        console.log("Fizz");
+    }
+    else {
+        console.log(i);
+    }
+}
 
 
