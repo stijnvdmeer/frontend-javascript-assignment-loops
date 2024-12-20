@@ -53,6 +53,17 @@ for(i = 0; i < 5; i++) {
 // >> 9
 // ==========================================
 
+for(i = 0; i <= 9; i++) {
+    if(i < 3) {
+        console.log(i);
+    }
+    else if (i < 6) {
+        console.log(">" + i);
+    }
+    else if(i <= 9 ) {
+        console.log(">>" + i);
+    }
+}
 
 
 
