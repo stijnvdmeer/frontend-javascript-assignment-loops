@@ -16,7 +16,14 @@ const scores = [
 // 66
 // ==========================================
 
+// Ik kies ervoor om een forEach te gebruiken in plaats van een for loop omdat,
+// We te maken hebben met een lijst van objecten.
 
+// Een forEach loop pakt ieder element uit en voert de code in de {} uit net zoals een for loop
+// Alleen is het simpler om waardes aan te roepen.
+scores.forEach(person => {
+    console.log(person.score);
+})
 
 
 
@@ -32,7 +39,13 @@ const scores = [
 // D
 // ==========================================
 
-
+scores.forEach(person => {
+    if(person.score <= 60) console.log("F");
+    else if(person.score <= 70) console.log("D");
+    else if(person.score <= 80) console.log("C");
+    else if(person.score <= 90) console.log("B");
+    else console.log("A");
+})
 
 
 
