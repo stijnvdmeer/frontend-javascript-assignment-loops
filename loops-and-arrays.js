@@ -26,7 +26,16 @@ console.log(names);
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
-
+console.log(numbers);
+for(i = 0; i < numbers.length; i++) {
+    if(numbers[i] % 2 === 0) {
+        numbers[i] = numbers[i] * 2
+    }
+    else {
+        numbers[i] = numbers[i] * 3
+    }
+}
+console.log(numbers);
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(numbers) geeft: [2, 4, 5, 29, 38];
