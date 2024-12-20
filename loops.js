@@ -25,7 +25,15 @@
 // klaar!
 // ==========================================
 
+for(i = 0; i < 5; i++) {
+    if(i === 4) {
+        console.log("Klaar!");
+    }
+    else {
+        console.log("Loop...");
+    }
 
+}
 
 
 
